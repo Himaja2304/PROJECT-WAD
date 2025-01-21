@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Color Palette Studio</h1>
+    <nav>
+      <a href="#upload-image">Upload Image</a>
+      <a href="#suggest-colors">Suggest Colors</a>
+      <a href="saved-palettes.html">Saved Palettes</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Image Upload Section -->
+    <section id="upload-image">
+      <h2>Upload Your Photo</h2>
+      <p>Upload a close-up image to get personalized color suggestions based on your eye, skin, and hair color.</p>
+      <input type="file" id="image-input" accept="image/*">
+      <img id="uploaded-image" alt="Uploaded Image Preview">
+      <button id="extract-btn">Extract Colors and Suggest</button>
+    </section>
+
+    <!-- Color Suggestions Section -->
+    <section id="suggest-colors">
+      <h2>Suggested Color Palette</h2>
+      <div id="color-palette"></div>
+      <p>These colors suit your eye, skin, and hair color.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>Learn how Color Palette Studio helps you discover the best colors for your personal features, based on color theory.</p>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Contact us | Terms of Use | Privacy Policy</p>
+    <p>&copy; 2025 Color Palette Studio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

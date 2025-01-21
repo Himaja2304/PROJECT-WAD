@@ -1,0 +1,84 @@
+/* Saved Palettes Section */
+#saved-palettes {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  #saved-palettes h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  #saved-palettes p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  #palette-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically adjusts to screen size */
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .palette {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .color:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header Navigation */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #FFEB3B;  /* Bright yellow on hover for emphasis */
+    text-decoration: underline;
+  }
+  
+  nav a.active {
+    color: #FFEB3B;  /* Highlight active link */
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+  }
+  
